@@ -1,4 +1,4 @@
-# Weather Analysis
+# Weather Analysis ⛅⛈️❄️
 
 ## Table of Content
 - [Project Overview](#project-overview)
