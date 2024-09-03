@@ -25,8 +25,8 @@ Weather Data: The primary dataset used for this anlysis is the "Weather.csv" fil
 
 ### Data Cleaning
 In the preparation phase we performed the following tasks:
-1.Data loading and Inspection.
-2.Data cleaning and formatting.
+- Data loading and Inspection.
+- Data cleaning and formatting.
 
 ### Exploratory Data Analytics
 EDA involved exploring of the dataset to answer the following questions:
@@ -41,13 +41,23 @@ EDA involved exploring of the dataset to answer the following questions:
 - Find all instances where the weather is clear and the realtive humidity is greater than 50,or visibility is above 40
 - Find the number of weather conditions that include snow
 
-### Dta Analysis
+### Data Analysis
 Some of the subqueries used include:
 ```sql
   SELECT COUNT(*)
  FROM project_portfolio.`1.weather_entries`
  WHERE `Wind Speed_km/h` >24 AND Visibility_km=25;
 ```
+### Findings 
+Some of the analysis results are as follow:
+- There are no null values in the dataset
+
+### Limitations 
+I eliminated the use of time on the Analysis and dealt with the date only.
+The elimination did not alter the results from the EDA.
+
+### References
+1. W3schools[Download here](https://www.w3schools.com)
 
 
 
