@@ -12,23 +12,28 @@
 - [References](#references)
 
 ### Project Overview
+---
 This data analysis project aims at analyzing weather trends for the 12 months in the year 2012 based on different times of the day and dates,make predictions and deduce the corelation between different elements of the weather and the resultant weather conditions of a specific day.
 
 ### Data Sources
+---
 Weather Data: The primary dataset used for this anlysis is the "Weather.csv" file, that contains detailed information on the recordings of different elements of weather and the weather conditions.
 
 ### Data Analytics Tools
+---
 - MSExcel- Data cleaning and Normalization
   -  [Download here](https://www.microsoft.com) 
 - MySQL- Data Analysis
    -  [Download here](https://www.mysql.com)
 
 ### Data Cleaning
+---
 In the preparation phase we performed the following tasks:
 - Data loading and Inspection.
 - Data cleaning and formatting.
 
 ### Exploratory Data Analytics
+---
 EDA involved exploring of the dataset to answer the following questions:
 
 - Find all records where the weather was exactly clear
@@ -42,6 +47,7 @@ EDA involved exploring of the dataset to answer the following questions:
 - Find the number of weather conditions that include snow
 
 ### Data Analysis
+----
 Some of the subqueries used include:
 ```sql
   SELECT COUNT(*)
@@ -49,14 +55,17 @@ Some of the subqueries used include:
  WHERE `Wind Speed_km/h` >24 AND Visibility_km=25;
 ```
 ### Findings 
+---
 Some of the analysis results are as follow:
 - There are no null values in the dataset
 
 ### Limitations 
+---
 I eliminated the use of time on the Analysis and dealt with the date only.
 The elimination did not alter the results from the EDA.
 
 ### References
+---
 1. W3schools[Download here](https://www.w3schools.com)
 
 
